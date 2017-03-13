@@ -1,3 +1,81 @@
-.oxmod-products{
-/* CSS */
- }
+.oxmod-products {
+  /* CSS */
+  background-color: #f4f4f4;
+  overflow: hidden;
+}
+.oxmod-products li {
+  background-color: #fff;
+  color: #555;
+  width: 49%;
+  float: left;
+  height: 260px;
+  overflow: hidden;
+  margin-bottom: 5px;
+  -webkit-box-sizing: border-box;
+}
+.oxmod-products li:nth-child(2n-1) {
+  float: right;
+}
+.oxmod-products li:nth-child(2n) {
+  float: left;
+}
+.oxmod-products .title {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  margin: 5px 10px;
+  overflow: hidden;
+  height: 14px;
+}
+.oxmod-products .img {
+  display: inline-block;
+  width: 100%;
+  height: 0;
+  padding-bottom: 120%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.oxmod-products .tags {
+  margin: 0 10px;
+}
+.oxmod-products .tag {
+  height: 10px;
+  line-height: 10px;
+  font-size: 0px;
+  padding: 1px;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 2px;
+}
+.oxmod-products .baoyou {
+  background: -webkit-linear-gradient(left, #f80, #f20);
+}
+.oxmod-products .baoyou:before {
+  content: '包邮';
+  font-size: 10px;
+  color: #fff;
+}
+.oxmod-products .price {
+  margin: 5px 10px;
+}
+.oxmod-products .price .num {
+  font-size: 16px;
+  color: #f20;
+  font-style: normal;
+  font-weight: 400;
+}
+.oxmod-products .price .symbol {
+  color: #f20;
+  font-size: 10px;
+  vertical-align: baseline;
+}
+.oxmod-products .price .brief {
+  float: right;
+  font-size: 10px;
+  color: #999;
+  line-height: 1.8;
+  max-width: 5em;
+  height: 1.8em;
+  overflow: hidden;
+}

@@ -1,46 +1,90 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <p>
-    <title>demo page</title>
-    <desc>this is deme page</desc>
-    <owner>openxsl</owner>
-    <icon>//oxm1.cc/img/app_default.png</icon>
-  </p>
-  <data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
         <product-list>
-        <i>
-            <title>
-                notebook
-            </title>
-            <brief>
-                nice watch
-            </brief>
-            <price>
-                notebook
-            </price>
-            <img>
-                //oxm1.cc/img/fox.jpg
-            </img>
-            <href>
-                //oxm1.cc/img/fox.jpg
-            </href>
-            <tags>
-                <i>
-                    nice screen
-                </i>
-            </tags>
-            <id>
-                camera
-            </id>
-            <orig_price>
-                3036.25
-            </orig_price>
-        </i>
-    </product-list>
-  </data>
+            <i>
+                <title>日系街头套头连帽青年</title>
+                <brief>杭州市余杭区</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4imvjbTj07ueq6hR73q7A64nz-690.png</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+            <i>
+                <title>superman 潮牌春秋款连帽男</title>
+                <brief>杭州</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+            <i>
+                <title>superman 潮牌春秋款连帽男</title>
+                <brief>杭州</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjcjTj07uh2d9RorcgAgdd-667.jpg</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+            <i>
+                <title>superman 长潮牌春秋款连帽男</title>
+                <brief>杭州</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ijxl7Tj07uho4lRwevaAa9xq-1775.png</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+            <i>
+                <title>superman 潮牌春秋款连帽男</title>
+                <brief>杭州</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4imvjbTj07ueq6hR73q7A64nz-690.png</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+            <i>
+                <title>superman 潮牌春秋款连帽男</title>
+                <brief>杭州</brief>
+                <price>129.00</price>
+                <img>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</img>
+                <href></href>
+                <tags>
+                    <i>baoyou</i>
+                </tags>
+                <id>123</id>
+                <orig_price>3036.25</orig_price>
+            </i>
+        </product-list>
+    </data>
 
 </root>
