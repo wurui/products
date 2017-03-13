@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+  <env>
+    <domain>local</domain>
+  </env>
+  <p>
+    <title>demo page</title>
+    <desc>this is deme page</desc>
+    <owner>openxsl</owner>
+    <icon>//oxm1.cc/img/app_default.png</icon>
+  </p>
+  <data>
+        <product-list>
+        <i>
+            <title>
+                notebook
+            </title>
+            <brief>
+                nice watch
+            </brief>
+            <price>
+                notebook
+            </price>
+            <img>
+                //oxm1.cc/img/fox.jpg
+            </img>
+            <href>
+                //oxm1.cc/img/fox.jpg
+            </href>
+            <tags>
+                <i>
+                    nice screen
+                </i>
+            </tags>
+            <id>
+                camera
+            </id>
+            <orig_price>
+                3036.25
+            </orig_price>
+        </i>
+    </product-list>
+  </data>
+
+</root>
