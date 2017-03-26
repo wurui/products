@@ -11,7 +11,7 @@
                             <xsl:when test="href != ''">
                                 <xsl:value-of select="href"/>
                             </xsl:when>
-                            <xsl:otherwise><xsl:value-of select="$detailLink"/>?id=<xsl:value-of select="id"/>
+                            <xsl:otherwise><xsl:value-of select="$detailLink"/>?id=<xsl:value-of select="id"/>&amp;_id=<xsl:value-of select="_id"/>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:variable>
