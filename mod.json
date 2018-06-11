@@ -1,6 +1,13 @@
 {
   "name": "products",
   "version": "1.0.0",
-  "apiDependencies": ["product-list"]
+  "apiDependencies": [
+  	{
+  		"name":"product-list",
+  		"LINK":[
+  			{"name":"detail","title":"查看详情"}
+  		]
+  	}
+  ]
 }
 

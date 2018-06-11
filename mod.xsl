@@ -6,7 +6,9 @@
         <div class="J_OXMod oxmod-products" ox-mod="products">
             <ul>
                 <xsl:for-each select="data/product-list/i">
+                    <!--
                     <xsl:variable name="linkto">
+                        
                         <xsl:choose>
                             <xsl:when test="href != ''">
                                 <xsl:value-of select="href"/>
@@ -14,9 +16,9 @@
                             <xsl:otherwise><xsl:value-of select="$detailLink"/>?id=<xsl:value-of select="id"/>&amp;_id=<xsl:value-of select="_id"/>
                             </xsl:otherwise>
                         </xsl:choose>
-                    </xsl:variable>
+                    </xsl:variable>-->
                     <li>
-                        <a href="{$linkto}">
+                        <a href="{LINK/detail}">
                             <span class="img" style="background-image:url({img}@!w240)"></span>
                         </a>
                         <h4 class="title">
