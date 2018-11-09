@@ -6,7 +6,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-products" ox-mod="products">
             <ul>
-                <xsl:for-each select="data/product-list/i">
+                <xsl:for-each select="data/ecom-products/i">
                     <!--
                     <xsl:variable name="linkto">
                         
@@ -20,7 +20,7 @@
                     </xsl:variable>-->
                     <li>
                         <a href="{LINK/detail}">
-                            <span class="img" style="background-image:url({img}@!w240)"></span>
+                            <span class="img" style="background-image:url({media/i[type='image']/src}@!w240)"></span>
                         </a>
                         <h4 class="title">
                             <xsl:value-of select="title"/>

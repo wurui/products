@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "apiDependencies": [
   	{
-  		"name":"product-list",
+  		"name":"ecom-products",
   		"LINK":[
   			{"name":"detail","title":"查看详情"}
   		]
