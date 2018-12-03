@@ -13,85 +13,106 @@
     <data>
         <ecom-products>
             <i>
-                <title>日系街头套头连帽青年</title>
-                <brief>杭州市余杭区</brief>
-                <price>129.00</price>
+                <title>纯色毛绒哈居拖鞋</title>
+                <brief>居家伴侣</brief>
+                <price>19.9</price>
+                <orig_price>29.9</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj9mzTjouwic2tRwkj2Agdb-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4imvjbTj07ueq6hR73q7A64nz-690.png</src>
                     </i>
                 </media>
-               
-                <orig_price>3036.25</orig_price>
             </i>
             <i>
-                <title>superman 潮牌春秋款连帽男</title>
-                <brief>杭州</brief>
-                <price>129.00</price>
+                <title>小熊猫紫砂炖锅</title>
+                <brief>冬季养生火锅</brief>
+                <price>129</price>
+                <orig_price>269</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj6t6TjouwiewmRxfptAocu-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</src>
                     </i>
                 </media>
-
-                
-                <id>123</id>
-                <orig_price>3036.25</orig_price>
             </i>
             <i>
-                <title>superman 潮牌春秋款连帽男</title>
-                <brief>杭州</brief>
-                <price>129.00</price>
+                <title>山水复古莫扎特收音机</title>
+                <brief>你必须懂得的情怀</brief>
+                <price>144</price>
+                <orig_price>297</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj7cxTjouwiecvRd2o6Ag6g-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjcjTj07uh2d9RorcgAgdd-667.jpg</src>
                     </i>
                 </media>
-
-                <id>123</id>
-                <orig_price>3036.25</orig_price>
             </i>
             <i>
-                <title>superman 长潮牌春秋款连帽男</title>
-                <brief>杭州</brief>
-                <price>129.00</price>
+                <title>Ankoo充电器充电宝</title>
+                <brief>20000mAh快充一小时放电一整天</brief>
+                <price>79.9</price>
+                <orig_price>129.9</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj7rpTjouwidy3Rt1vgAe10-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ijxl7Tj07uho4lRwevaAa9xq-1775.png</src>
                     </i>
                 </media>
-
-                <orig_price>3036.25</orig_price>
             </i>
             <i>
-                <title>superman 潮牌春秋款连帽男</title>
-                <brief>杭州</brief>
-                <price>129.00</price>
+                <title>亚马逊Kindle Paperwhite7</title>
+                <brief>亚洲首发最新款</brief>
+                <price>599</price>
+                <orig_price>789</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgj88vTjouwidgxRg5ftA80l-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4imvjbTj07ueq6hR73q7A64nz-690.png</src>
                     </i>
                 </media>
-
-                <id>123</id>
-                <orig_price>3036.25</orig_price>
             </i>
             <i>
-                <title>superman 潮牌春秋款连帽男</title>
-                <brief>杭州</brief>
-                <price>129.00</price>
+                <title>NSBL万向轮拉杆旅行箱</title>
+                <brief>小身材大容量　伴你一路顺风</brief>
+                <price>196</price>
+                <orig_price>299</orig_price>
+                <inventory>10</inventory>
+                <category></category>
+                <sold>0</sold>
+                <owner>git/wurui</owner>
+                <description></description>
                 <media>
                     <i>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/29uhgjajyTjouwib5uRu7zcAbw6-1000.png</src>
                         <type>image</type>
-                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</src>
                     </i>
                 </media>
-                <orig_price>3036.25</orig_price>
             </i>
         </ecom-products>
     </data>

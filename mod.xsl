@@ -7,17 +7,6 @@
         <div class="J_OXMod oxmod-products" ox-mod="products">
             <ul>
                 <xsl:for-each select="data/ecom-products/i">
-                    <!--
-                    <xsl:variable name="linkto">
-                        
-                        <xsl:choose>
-                            <xsl:when test="href != ''">
-                                <xsl:value-of select="href"/>
-                            </xsl:when>
-                            <xsl:otherwise><xsl:value-of select="$detailLink"/>?id=<xsl:value-of select="id"/>&amp;_id=<xsl:value-of select="_id"/>
-                            </xsl:otherwise>
-                        </xsl:choose>
-                    </xsl:variable>-->
                     <li>
                         <a href="{LINK/detail}">
                             <span class="img" style="background-image:url({media/i[type='image']/src}@!w240)"></span>
@@ -25,21 +14,17 @@
                         <h4 class="title">
                             <xsl:value-of select="title"/>
                         </h4>
-                        <p class="tags">
-                            <xsl:for-each select="tags/i">
-                                <em class="tag {.}">
-                                    <xsl:value-of select="."/>
-                                </em>
-                            </xsl:for-each>
+                        <p class="brief">
+                            <xsl:value-of select="brief"/>
                         </p>
                         <p class="price">
-                            <span class="brief">
-                                <xsl:value-of select="brief"/>
-                            </span>
-                            <sub class="symbol">&#165;</sub>
-                            <em class="num">
+                            <em>
                                 <xsl:value-of select="price"/>
                             </em>
+                            &#160;&#160;
+                            <xsl:if test="orig_price &gt; 0">
+                                <del><xsl:value-of select="orig_price"/></del>
+                            </xsl:if>
                         </p>
 
                     </li>

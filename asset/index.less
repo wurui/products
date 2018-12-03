@@ -24,7 +24,7 @@
     font-size:12px;
     font-weight: 400;
     text-align: left;
-    margin:5px 10px;
+    margin:5px;
 
     overflow: hidden;
 
@@ -39,48 +39,37 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .tags{
-    margin:0 10px;
-  }
-  .tag{
-    height: 10px;
-    line-height: 10px;
-    font-size:0px;
-    padding:1px;
-    font-style:normal;
-    display: inline-block;
-    border-radius: 2px;
-  }
-  .baoyou{
-    background: -webkit-linear-gradient(left,#f80, #f20);
-    &:before{
-      content: '包邮';
-      font-size:10px;
-      color:#fff;
-    }
+  .brief{
+    color:#999;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin:5px;
+
   }
   .price{
-    margin:5px 10px;
-    .num{
+    margin:5px;
+    em{
       font-size:16px;
       color:#f20;
       font-style: normal;
       font-weight: 400;
+      &:before{
+        content: '\a5';
+        font-size:12px;
+      }
     }
-    .symbol{
-      color:#f20;
-      font-size:10px;
-      vertical-align: baseline;
+    del{
+      color:#ccc;
+      font-size:12px;
+      &:before{
+        content: '\a5';
+        font-size:12px;
+      }
+      
     }
-    .brief{
-      float: right;
-      font-size:10px;
-      color:#999;
-      line-height: 1.8;
-      max-width: 5em;
-      height: 1.8em;
-      overflow: hidden;
-    }
+
 
   }
 }
